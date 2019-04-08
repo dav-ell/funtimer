@@ -8,5 +8,6 @@ do_things(arg1, arg2, arg3=True)
 and time it like this
 
 ```
+from funtimer import timing
 timing(do_things)(arg1, arg2, arg3=True)
 ```
